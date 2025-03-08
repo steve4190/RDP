@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
+@layer components {
+  .form-input:focus {
+    @apply ring-2 ring-blue-500 border-transparent;
+  }
+}
